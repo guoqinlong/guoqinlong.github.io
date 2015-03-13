@@ -1,11 +1,169 @@
----
-layout: default
-title: 我的Blog
----
-<h2>{{ page.title }}</h2>
-<p>最新文章</p>
-<ul>
-　　{% for post in site.posts %}
-　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　{% endfor %}
+
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en-US">
+
+<head>
+	
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<!--<meta name="robots" content="index, follow">-->
+<title>Qinlong Guo | Tsinghua University</title>
+
+<style type="text/css" media="screen, print">
+    @font-face {
+      font-family: "FontStyle";
+      src: url("files/Futura.woff");
+    }                                                                             
+    body { font-family: "FontStyle"; font-size: 10pt }
+</style>
+
+</head>
+
+<header>
+
+<table style="table-layout:fixed;">
+
+<td  style="width:160px;text-align:left; vertical-align:left;">
+<img width = "160px" src="files/photo.jpg" alt="Qinlong Guo">
+</td>
+
+<td style="text-align:left; vertical-align:top;">
+
+<h2>Qinlong Guo</h2>
+
+<h4>Graduate Student<br>
+<a href="http://ise.thss.tsinghua.edu.cn/ISEWeb/english/index.html">Institute of Information System and Engineering</a><br>
+<a href="http://www.thss.tsinghua.edu.cn/publish/soften/index.html">School of Software</a><br>
+<a href="http://www.tsinghua.edu.cn/publish/newthuen/index.html">Tsinghua University</a><br>
+Beijing 100084, China<br>
+<a href="mailto:guoqinlong@gmail.com">guoqinlong[at]gmail[dot]com</a><br><br>
+
+<a href="files/cv_guoqinlong.pdf">[Curriculum Vitae]</a>
+<a href="http://scholar.google.com/citations?user=QPKysDEAAAAJ">[Google Scholar Profile]</a>
+<a href="http://dblp.uni-trier.de/pers/hd/g/Guo:Qinlong">[DBLP]</a><br>
+</h4>
+
+</td>
+</table>
+
+</header>
+
+<hr>
+
+<section>
+<p>I am currently a third-year graduate student at School of Software, Tsinghua University, under the guidance of <a href="http://www.thss.tsinghua.edu.cn/publish/soft/3641/2010/20101214090035662150715/20101214090035662150715_.html">Prof. Jianmin Wang</a> and <a href="http://www.thss.tsinghua.edu.cn/publish/soft/3641/2010/20101215110718794670323/20101215110718794670323_.html">Prof. Lijie Wen</a>. This summer, I visited the Big Data and Social Computing(BDSC) Lab in University of Illinos at Chicago, under the guidance of <a href="http://www.cs.uic.edu/PSYu/">Prof. Philip S. Yu.</a> </p>
+<p>I am supposed to graduate in Summer 2015, and I am now applying for U.S Ph.D. position in Fall 2015. This is my full <a href="files/cv_guoqinlong.pdf">CV</a>.</p>
+
+</section>
+
+<section>
+<h3>Research Interests</h3>
+
+<ul> 
+    <li>Data Mining, Machine Learning, Business Process Management</li>
 </ul>
+
+</section>
+
+<section><h3>Education</h3>
+
+<ul>    
+    <li><p>M.S.E. in Software Engineering, 2012-2015(expected)<br>
+        <a href="http://www.thss.tsinghua.edu.cn/publish/soften/index.html">School of Software</a>, Tsinghua University, Beijing, China<br>
+        Advisor: <a href="http://www.thss.tsinghua.edu.cn/publish/soft/3641/2010/20101214090035662150715/20101214090035662150715_.html">Prof. Jianmin Wang</a></p></li>
+	<li><p>Research Assistant, 2014.07-2014.08<br>
+        <a href="http://www.cs.uic.edu/">Department of Computer Science</a>, University of Illinos, Chicago, IL, USA<br>
+        Advisor: <a href="http://www.cs.uic.edu/PSYu/">Prof. Philip S. Yu</a></p></li>
+    <li><p>B.E. in Computer Software, 2008-2012<br>
+        <a href="http://www.thss.tsinghua.edu.cn/publish/soften/index.html">School of Software</a>, Tsinghua University, Beijing, China</p></li>
+</ul>
+
+</section>
+
+<section><h3>Publications</h3>
+
+<ol>
+    <li>
+        <p><strong>A Universal Significant Reference Model Set for Process Mining Evaluation Framework</strong><br>
+        <u>Qinlong Guo</u>, Lijie Wen, Jianmin Wang, Zizhe Ding, Cheng Lv<br>
+        <em>Proceedings of Asia Pacific Business Process Management 2014</em>, 
+        [<a href="http://link.springer.com/chapter/10.1007/978-3-319-08222-6_2">LINK</a>] [<a href="files/auniversal.pdf">Slides</a>]</p>
+    </li>
+	<li>
+        <p><strong>NBAJ: Workflow Resource Assignment Satisfaction Judgment Based on Network-flow Method</strong><br>
+        <u>Qinlong Guo</u>, Lijie Wen, Tao Jin, Jun Chen, Wang Tang<br>
+        <em>Proceedings of China Business Process Management 2014</em>, To appear
+        [LINK] [<a href="files/nbaj.pdf">Slides</a>(in Chinese)]</p>
+    </li>
+	<li>
+        <p><strong>Efficient Selection of Process Mining Algorithms</strong><br>
+        Jianmin Wang, Raymond K. Wong, Jianwei Ding, <u>Qinlong Guo</u>, Lijie Wen<br>
+        <em>IEEE Transactions on Services Computing </em>, vol. 6, no. 4, 2014 
+        [<a href="http://www.computer.org/csdl/trans/sc/2013/04/tsc2013040484-abs.html">LINK</a>] </p>
+    </li>
+    <li>
+        <p><strong>Process Model Fragmentization, Clustering and Merging: An Empirical Study</strong><br>
+        Xiang Gao, Yurong Chen, Zizhe Ding, Meng Wang, Xiaonan Zhang, Zhiqiang Yan, Lijie Wen, <u>Qinlong Guo</u>, Ran Chen<br>
+        <em>International Conference on Business Process Management, workshops, 2013 </em>,
+        [<a href="http://link.springer.com/chapter/10.1007/978-3-319-06257-0_32">LINK</a>] [Slides]</p>
+    </li>
+    <li>
+        <p><strong>On Recommendation of Process Mining Algorithms</strong><br>
+        Jianmin Wang, Raymond K. Wong, Jianwei Ding, <u>Qinlong Guo</u>, Lijie Wen<br>
+        <em>Proceedings of International Conference on Web Services 2012 </em>
+        [<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6257822&queryText%3Don+recommendation+of+process+mining+algorithm">LINK</a>][Slides] </p>
+    </li>
+	<li>
+        <p><strong>An Empirical Evaluation of Process Mining Algorithms based on Structural and Behavioral Similarities</strong><br>
+        Jianmin Wang, Shijie Tan, Lijie Wen, Raymond K. Wong, <u>Qinlong Guo</u><br>
+        <em>Proceedings of the 27 th Annual ACM Symposium on Applied Computing,2012 </em>
+        [<a href="http://dl.acm.org/citation.cfm?id=2245276.2245316&coll=DL&dl=ACM&CFID=593284851&CFTOKEN=71719940">LINK</a>] [<a href="files/poster.jpg">Poster</a>]</p>
+    </li>
+</ol>
+
+<section><h4>In Review</h4>
+<ol>
+	<li>
+        <p><strong>Mining Process Models with Invisible Tasks ivolved in Non-Free-Choice Constructs</strong><br>
+        <u>Qinlong Guo</u>, Lijie Wen, Jianmin Wang, Zhiqiang Yan, Philip S. Yu<br>
+        <em>Database Systems for Advanced Applications 2015 </em>
+        </p>
+    </li>
+</ol>
+</section>
+
+
+</section>
+
+<section><h3>Teaching Experience</h3>
+
+<ol>    
+    <li>Teaching Assistant: The Cloud Date Management (B), with <a href="http://www.thss.tsinghua.edu.cn/publish/soft/3641/2010/20101215110718794670323/20101215110718794670323_.html">Prof. Lijie Wen</a>, Tsinghua University, Fall 2014</li>    
+	<li>Teaching Assistant: The Concepts and Techniques of Workflows, with <a href="http://www.thss.tsinghua.edu.cn/publish/soft/3641/2010/20101214090035662150715/20101214090035662150715_.html">Prof. Jianmin Wang</a>, Tsinghua University, Spring 2014</li>    
+	<li>Teaching Assistant: Information Retrieval Technology, with <a href="http://www.thss.tsinghua.edu.cn/publish/soft/3641/2010/20101215110718794670323/20101215110718794670323_.html">Prof. Lijie Wen</a>, Tsinghua University, Fall 2013</li>    
+</ol>
+
+</section>
+
+<section><h3>Honors and Awards</h3>
+
+<ol>
+	<li>Tsinghua Friends - Lexiaoyao Comprehensive First scholarship (5/150),  Fall 2014</li>
+	<li>Tsinghua Friends - Guanghua Comprehensive scholarship (20/150),  Fall 2013</li>
+	<li>Assistant Enterprise Architect, certified by The Open Group China,  Fall 2012</li>
+	<li>Tsinghua Friends - Wangwang scholarship,(5/60)  Fall 2010</li>
+	<li>Second Prize of Tsinghua Challenge Cup,  Spring 2009</li>
+</ol>
+
+</section>
+
+<hr>
+
+<footer>
+<p>Last updated: <script type="text/javascript">document.write(document.lastModified);</script>. HTML5/CSS3 Compliance.</p>
+</footer>
+
+</body>
+
+</html>
