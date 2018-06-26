@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title>Test   //在此处添加你的标题。</title>
+      <link href="/2018/06/26/test/"/>
+      <url>/2018/06/26/test/</url>
+      <content type="html"><![CDATA[<p>This is the main paragraph</p>]]></content>
+      
+      <categories>
+          
+          <category> Exercise   //在此处输入这篇文章的分类。 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test_tag </tag>
+            
+        </tags>
+      
+    </entry>
+    
+  
+  
+</search>
