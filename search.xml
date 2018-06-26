@@ -6,7 +6,7 @@
       <title>Test   //在此处添加你的标题。</title>
       <link href="/2018/06/26/test/"/>
       <url>/2018/06/26/test/</url>
-      <content type="html"><![CDATA[<p>This is the main paragraph</p>]]></content>
+      <content type="html"><![CDATA[<h3 id="Test"><a href="#Test" class="headerlink" title="Test"></a>Test</h3><p><img src="/2018/06/26/test/a.jpg" alt="a"></p>]]></content>
       
       <categories>
           
